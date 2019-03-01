@@ -34,7 +34,7 @@ final class Customizer
     {
         foreach ($config as $key => $value) {
             if (isset($target[$key])) {
-                if (is_iterable($value) && is_array($target[$key])) {
+                if (is_array($value) && is_array($target[$key])) {
                     $target[$key] = $this->customizeInternal($target[$key], $value);
                 } elseif (is_string($target[$key]) && is_string($value)) {
                     $newValue = getenv($value);
