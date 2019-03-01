@@ -1,6 +1,6 @@
 {
     "name": "wfs/custom-environment-variables",
-    "description": "array customizer with a environment variables",
+    "description": "array customizer with environment variables",
     "type": "library",
     "require": {
         "hassankhan/config": "^2.0",
