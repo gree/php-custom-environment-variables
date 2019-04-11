@@ -4,6 +4,9 @@ CustomEnvironmentVariables
 CustomEnvironmentVariables is inspired by [node-config](https://github.com/lorenwest/node-config)'s
 [Custom Environment Variables](https://github.com/lorenwest/node-config/wiki/Environment-Variables#custom-environment-variables) feature.
 
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/gree/php-custom-environment-variables/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/gree/php-custom-environment-variables/?branch=master)
+[![Code Coverage](https://scrutinizer-ci.com/g/gree/php-custom-environment-variables/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/gree/php-custom-environment-variables/?branch=master)
+
 ## Requirements
 
 PHP 7.1+
@@ -117,3 +120,4 @@ age: 10
 name: bob
 age: 20
 ```
+
